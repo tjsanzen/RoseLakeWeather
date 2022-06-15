@@ -1,0 +1,48 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "rose lake weather",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "name": "DetailedReportIntent",
+          "slots": [],
+          "samples": [
+            "detailed weather report",
+            "i want the detailed weather",
+            "get the atmospheric pressure",
+            "what is the atmospheric pressure",
+            "atmospheric pressure",
+            "detailed weather",
+            "what is the detailed weather",
+            "can i hear more",
+            "i want to hear more",
+            "tell me more",
+            "detailed report"
+          ]
+        }
+      ],
+      "types": []
+    }
+  },
+  "version": "16"
+}

@@ -1,0 +1,88 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "en-US": {
+          "summary": "Rose Lake Weather skill built by Tovin",
+          "examplePhrases": [
+            "Alexa open rose lake weather",
+            "detailed weather report",
+            "give me a detailed weather report for rose lake weather"
+          ],
+          "keywords": [
+            "rose",
+            "lake",
+            "weather",
+            "frazee",
+            "minnesota",
+            "mn",
+            "summer",
+            "winter",
+            "temperature",
+            "wind",
+            "clouds",
+            "rain",
+            "cold",
+            "hot",
+            "grandpa",
+            "nana",
+            "finland",
+            "finnish",
+            "house"
+          ],
+          "name": "Rose Lake Weather",
+          "description": "This is Tovin\u0027s Rose Lake Weather Skill, developed with Python. The weather station is located outside of Nana\u0027s green door on an old stump, catching the beautiful lakeside breeze!",
+          "smallIconUri": "file://assets/images/en-US_smallIconUri.png",
+          "largeIconUri": "file://assets/images/en-US_largeIconUri.png"
+        }
+      },
+      "automaticDistribution": {
+        "isActive": false
+      },
+      "isAvailableWorldwide": false,
+      "testingInstructions": "No testing requirements.",
+      "category": "WEATHER",
+      "distributionMode": "PUBLIC",
+      "distributionCountries": [
+        "US",
+        "CA"
+      ]
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "arn:aws:lambda:us-east-1:119757410051:function:8740aa6e-f527-4473-a5c6-25dcafbebf3f:Release_0"
+        },
+        "interfaces": [],
+        "regions": {
+          "EU": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:eu-west-1:119757410051:function:8740aa6e-f527-4473-a5c6-25dcafbebf3f:Release_0"
+            }
+          },
+          "NA": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-east-1:119757410051:function:8740aa6e-f527-4473-a5c6-25dcafbebf3f:Release_0"
+            }
+          },
+          "FE": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-west-2:119757410051:function:8740aa6e-f527-4473-a5c6-25dcafbebf3f:Release_0"
+            }
+          }
+        }
+      }
+    },
+    "manifestVersion": "1.0",
+    "privacyAndCompliance": {
+      "allowsPurchases": false,
+      "locales": {
+        "en-US": {}
+      },
+      "containsAds": false,
+      "isExportCompliant": true,
+      "isChildDirected": false,
+      "usesPersonalInfo": false
+    }
+  }
+}
